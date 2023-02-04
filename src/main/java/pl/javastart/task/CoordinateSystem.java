@@ -27,11 +27,11 @@ public class CoordinateSystem {
         } else if ((point.getX() > 0) && (point.getY() > 0)) {
             return (pointToString(point) + "leży w I ćwiartce układu współrzędnych");
         } else if ((point.getX() > 0) && (point.getY() < 0)) {
-            return (pointToString(point) + "leży w II ćwiartce układu współrzędnych");
+            return (pointToString(point) + "leży w IV ćwiartce układu współrzędnych");
         } else if ((point.getX() < 0) && (point.getY() < 0)) {
             return (pointToString(point) + "leży w III ćwiartce układu współrzędnych");
         } else {
-            return (pointToString(point) + "leży w IV ćwiartce układu współrzędnych");
+            return (pointToString(point) + "leży w II ćwiartce układu współrzędnych");
         }
     }
 
