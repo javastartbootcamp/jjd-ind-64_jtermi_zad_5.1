@@ -21,17 +21,17 @@ public class CoordinateSystem {
         if (point.getX() == 0 && point.getY() == 0) {
             return (pointToString(point) + "leży na środku układu współrzędnych");
         } else if (point.getX() == 0) {
-            return (pointToString(point) + "leży na osi X");
-        } else if (point.getY() == 0) {
             return (pointToString(point) + "leży na osi Y");
+        } else if (point.getY() == 0) {
+            return (pointToString(point) + "leży na osi X");
         } else if ((point.getX() > 0) && (point.getY() > 0)) {
-            return (pointToString(point) + "leży w I ćwiartce");
+            return (pointToString(point) + "leży w I ćwiartce układu współrzędnych");
         } else if ((point.getX() > 0) && (point.getY() < 0)) {
-            return (pointToString(point) + "leży w II ćwiartce");
+            return (pointToString(point) + "leży w II ćwiartce układu współrzędnych");
         } else if ((point.getX() < 0) && (point.getY() < 0)) {
-            return (pointToString(point) + "leży w III ćwiartce");
+            return (pointToString(point) + "leży w III ćwiartce układu współrzędnych");
         } else {
-            return (pointToString(point) + "leży w IV ćwiartce");
+            return (pointToString(point) + "leży w IV ćwiartce układu współrzędnych");
         }
     }
 
